@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Comme&family=Itim&family=Josefin+Sans&family=Mukta&family=Pacifico&family=Raleway&family=Roboto:wght@300&family=Ysabeau&family=Zilla+Slab&display=swap');
+/* body{
+  height: 1000px;
+  overflow: auto;
+} */
+.container {
+  background-color:#191d28;
+  width: 100%;
+   max-width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  /* overflow: auto; */
+}
+h1 {
+  color:rgb(93, 216, 216);
+  font-size: 2.5rem;
+  font-weight: 100;
+  margin-top: 1rem;
+  /* font-family: 'Almarai', sans-serif; */
+  font-family: 'Oswald',sans-serif;
+}
+.header-section {
+  display: flex;
+  margin: auto;
+  padding: 2rem;
+}
+.header-middle-section{
+display: flex;
+margin-left: 15rem;  
+
+}
+#inr-section{
+padding: 0.8rem;
+}
+#inr-section ul a{
+  padding: 0.7rem;
+}
+
+.buy-btc a{
+   border: 1px solid #191d28;
+   background-color: #262b38;
+   padding: 0.5rem;
+   border-radius: 15px;
+   font-size: 0.9rem;
+   text-decoration: none;
+   color: white;
+   margin-top: 2rem;
+}
+#btc-section{
+padding-top: 1.8rem;
+padding-left: 1rem;
+}
+
+select option{
+  background-color: white;
+  color: black;
+  width: 10px;
+  margin: 5px;
+}
+#btc-section a{
+  padding: 0.8rem;
+}
+.dropdown{
+background-color: #262b38;
+color: #f4f4f7;
+   padding: -3rem;
+   border-radius: 12px;
+   border-color: #191d28;
+   font-size: 0.9rem;
+   width: 7rem;
+}
+#drpdwn{
+  height: 2.6rem;
+  margin-top: 1.2rem;
+}
+#drpdwn a{
+  width: 19rem;
+}
+
+  select a{
+      width: 20px;
+      padding: 10px;
+      border: none;
+      background-color: #f9f9f9;
+  }
+  .dropdown a{
+    width: 5rem;
+      padding: 100px;
+      background-color: #f9f9f9;
+      width: 200px;
+  }
+
+
+.header-right-section {
+  display: flex;
+  margin-left: 18rem;
+}
+.telegram-section {
+  margin-top: 1rem;
+}
+
+.telegram-section a{
+  text-decoration: none;
+  color: white;
+}
+.btn{
+  font-size: 1rem;
+  border: 1px solid rgb(93, 216, 216);
+ border-radius: 5px;
+  background-color: rgb(93, 216, 216);
+ padding: 0.5rem;
+}
+.price-section{
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(177, 166, 166);
+  font-family: 'Oswald',sans-serif;
+}
+
+
+
+.duration{
+  display: flex;
+  margin: auto;
+  padding: 3rem;
+  width: 100%;
+}
+
+.min{
+  width: 20%;
+  font-size: 2.4rem;
+  color:rgb(93, 216, 216);
+}
+
+.hour{
+  width: 18%;
+  font-size: 2.4rem;
+  color:rgb(93, 216, 216);
+}
+.rupees{
+  width: 40%;
+  font-size: 4.6rem;
+  color: white;
+}
+.days{
+  width: 20%;
+  font-size: 2.4rem;
+  color:rgb(93, 216, 216);
+}
+.multiple-days{
+  width: 18%;
+  font-size: 2.4rem;
+  color:rgb(93, 216, 216);
+}
+span{
+  color: rgb(177, 166, 166);
+  font-size: 1.5rem;
+}
+.average-price{
+  text-align: center;
+  font-size: 1.2rem;
+  color: rgb(177, 166, 166);
+  font-family: 'Oswald',sans-serif;
+  margin-top: -2.5rem;
+}
+
+.data-heading ul{
+  display: flex;
+  list-style: none;
+  width: 90%;
+  color: rgb(177, 166, 166);
+  font-size: 1.5rem;
+  font-family: 'Oswald',sans-serif;
+  margin-top: 3rem;
+  margin-bottom: -2rem;
+}
+.heading-1{
+  width: 15%;
+}
+.heading-2{
+  width: 25%;
+}
+.heading-3{
+  width: 35%;
+}
+.heading-4{
+  width: 35%;
+}
+.heading-5{
+  width: 25%;
+}
+.heading-6{
+  width: 25%;
+}
+
+
+#test{
+  height: 600px;
+  overflow-x: hidden;
+  overflow-y: visible;
+} 
+
+.fetched-data{
+  border: 1px solid #262b38;
+  border-radius: 13px;
+  display: flex;
+  width:91%;
+  margin: 2.3rem;
+  padding: 0.9rem;
+  font-size: 1.6rem;
+  font-family: 'Oswald',sans-serif;
+  background-color: #262b38;
+}
+.no{
+  width: 10%;
+  color: white;
+}
+.platform{
+  width: 20%;
+  color: white;
+}
+.last-traded-price{
+  width: 20%;
+  color: white;
+}
+.buy-price{
+  width: 35%;
+  color: white;
+}
+.difference{
+  width: 20%;
+  color: white;
+}
+.savings{
+  width: 20%;
+  color: white;
+}
+
+.footer{
+  display: flex;
+  padding-bottom: 1.5rem;
+
+}
+.copyright{
+  color: rgb(177, 166, 166);
+  margin-left: 3rem;
+  
+}
+.copyright a{
+  color: rgb(177, 166, 166);
+ text-decoration: none;
+}
+
+.support{
+  color: rgb(177, 166, 166);
+  margin-left: 62rem;
+}
+
+.footer-section{
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: 'Almarai', sans-serif;
+  border: 1px solid rgb(93, 216, 216);
+  border-radius: 5px;
+  color:rgb(93, 216, 216);
+  width: 17rem;
+  margin: auto;
+  padding: 0.6rem;
+}
+.footer-section:hover{
+  background-color:rgb(57, 168, 168);
+  color: white;
+}
+
+#timer {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-left: -5rem;
+}
+
+/* body {
+  background-color: #fff; 
+  color: #000; 
+} */
+
+.tgl-btn{
+  margin-left: 1rem;
+  margin-top: 1rem;
+  max-width: 0rem;
+  background-color: #191d28;
+  /* color: #000; */
+}
+
+.dark-mode {
+  background-color: white; 
+  color: #fff; 
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  .container{
+        margin: auto;
+        padding: auto;
+        width: 100%;
+  }
+  .header-section{
+    width: 100%;
+    padding: 2rem;
+  }
+  h1{
+    font-size: 1.5rem;
+    padding: auto;
+    margin: auto;
+  }
+  .buy-btc{
+    width: 5rem;
+    margin-top: 1rem;
+  }
+ #tele-btn{
+  margin-left: -29rem;
+ }
+  .header-middle-section{
+    display: flex;
+    width: 100%;
+    margin-top: -1.6rem;
+    margin-left: 2rem;
+    font-size: 0.6rem;
+  }
+  .buy-btc{
+    width: 2rem;
+    margin-left: 0.8rem;
+    margin-top: 1.3rem;
+  }
+  #btc-section{
+    margin-top: -3rem;
+    margin-left: -0.5rem;
+    display: flex;
+    width: min-content;
+  }
+  #drpdwn{
+    margin-left: 1rem;
+    width: auto;
+  }
+
+.data-heading ul li{
+  font-size: 0.8rem;
+
+}
+.telegram-section {
+  margin: auto;
+  margin-left: 15rem;
+}
+
+.telegram-section a{
+ font-size: small;
+}
+
+  .duration{
+    width: auto;
+    font-size: larger;
+    margin: auto;
+  }
+
+  .min{
+    width: 20%;
+    font-size: large;
+    color:rgb(93, 216, 216);
+  }
+  
+  .hour{
+    width: 20%;
+    font-size: large;
+    color:rgb(93, 216, 216);
+  }
+  .rupees{
+    width: 25%;
+    font-size: 1.5rem;
+    color: white;
+  }
+  span{
+    font-size: 1rem;
+    padding: 2rem;
+    width: 10%;
+  }
+  .days{
+    width: 20%;
+    font-size: large;
+    color:rgb(93, 216, 216);
+  }
+  .multiple-days{
+    width: 20%;
+    font-size: large;
+    color:rgb(93, 216, 216);
+  }
+  .average-price{
+    font-size: large;
+  }
+
+  .fetched-data{
+    width: 100%;
+  }
+  .no{
+    font-size: 0.9rem;
+    width: 5%;
+    margin-left: 2rem;
+  }
+  .platform{
+    font-size: 0.9rem;
+    width: 13%;
+  }
+  .last-traded-price{
+    font-size: 0.9rem;
+    width: 16%;
+  }
+  .buy-price{
+    font-size: 0.9rem;
+    width: 25%;
+  }
+  .difference{
+    font-size: 0.9rem;
+    width: 10%;
+  }
+  .savings{
+    font-size: 0.9rem;
+    width: 10%;
+  }
+
+  .footer{
+    display: flex;
+    width: 100%;
+    font-size: small;
+    margin: auto;
+  }
+  .support{
+    margin: 0 auto;
+  }
+
+}
+

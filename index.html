@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+ <link rel="stylesheet" href="public/style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <div class="container">
+
+      <div id = 'test'>
+      <div class="header-section">
+        <div class="header-left-section"><h1>HODLINFO</h1></div>
+
+        <div class="header-middle-section">
+            <div class="inr-drp" id="inr-section">
+                <ul>
+                   <div class="buy-btc" >
+                        <a href="#">INR</a>
+                        </ul>
+                </ul>
+            </div>
+                       
+            
+                <select class="dropdown" id="drpdwn">
+                    <!-- <option value="" disabled selected></option> -->                  
+                        <option><a href="">BTC</a></option>
+                        <option><a href="">ETH</a></option>
+                        <option><a href="">USDT</a></option>
+                        <option><a href="">XRP</a></option>
+                        <option><a href="">TRX</a></option>
+                        <option><a href="">DASH</a></option>
+                        <option><a href="">ZEC</a></option>
+                        <option><a href="">XEM</a></option>
+                        <option><a href="">IOST</a></option>
+                        <option><a href="">WIN</a></option>
+                        <option><a href="">BTT</a></option>
+                        <option><a href="">WRX</a></option>
+              
+                </select>
+
+            <div class="buy-btc" id="btc-section">
+                <a href="#">BUY BTC</a>
+            </div>
+
+        </div>
+
+        <div class="header-right-section">
+
+          <div id="timer" class="set-time-btn">60</div>
+
+          <div class="telegram-section">
+          <button class="btn" id = "tele-btn"><a href="#"> <i class="fa fa-telegram" aria-hidden="true"></i> Connect Telegram</a></button>
+          </div>
+<!--   
+          <div class="tgl-btn">
+            <button id="toggle-btn">Bright mode</button>
+          </div> -->
+          
+
+        </div>
+      </div><br>
+
+      <div class="price-section">Best Price to Trade</div>
+  
+
+      <div class="duration">
+        <div class="min"> 
+         <div class="perentage" id = "perentage5mins">0.91%</div>
+         <span>5 Min</span>
+        </div>
+
+        <div class="hour">
+          <div class="percentage" id = "perentage1hr">0.41%</div> 
+          <span>1 Hour</span>
+        </div>
+
+        <div class="rupees"> <i class="fa fa-inr" aria-hidden="true"></i> 2602543</div>
+
+        <div class="days">
+          <div class="percentage" id = "perentage1day">1.08%</div> 
+          <span>1 Day</span>
+        </div>
+
+        <div class="multiple-days">
+          <div class="percentage" id = "perentage7days">7.29%</div>
+          <span>7 Days</span>
+        </div>
+      </div>
+
+      <div class="average-price">Average BTC/INR not price including commission</div>
+
+
+      <div class="data-heading">
+        <ul>
+          <li class="heading-1">#</li>
+          <li class="heading-2">Platform</li>
+          <li class="heading-3">Last Traded Price</li>
+          <li class="heading-4">Buy/Sell Price</li>
+          <li class="heading-5">Differences</li>
+          <li class="heading-6">Savings</li>
+        </ul>
+      </div>
+      <div id = 'dynamic_data'>
+        <div class="fetched-data">
+          <div class="no">1</div>
+  
+          <div class="platform">WazirX</div>
+         <div class="last-traded-price"> <i class="fa fa-inr" aria-hidden="true"></i> 25,15,000</div>
+  
+         <div class="buy-price"> <i class="fa fa-inr" aria-hidden="true"></i> 24,91,005/25,15,000</div>
+  
+         <div class="difference">-3.10%</div>
+  
+         <div class="savings"> <i class="fa fa-inr" aria-hidden="true"></i> 80,466</div>
+  
+        </div>
+
+
+      </div>
+      
+      
+
+  <hr>
+      <div class="footer">
+        <div class="copyright">
+         Copyright 2019  <a href="">HodIInfo.com</a>
+        </div>
+
+        <div class="support">
+            Support
+        </div>
+      </div>
+
+      </div>
+
+      <div class="footer-section">
+        Add hodlinfo to home screen
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
