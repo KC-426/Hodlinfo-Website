@@ -7,4 +7,4 @@ router.get('/get-api', apiController.getApi)
 
 router.get('/fetch-api', apiController.fetchApi)
 
-module.exports = router  
+module.exports = router     
