@@ -1,0 +1,57 @@
+body {
+    background-color: #191d28;
+    color: white;
+    font-family: Oswald, sans-serif;
+    
+}
+  h1{
+    margin-left: 3rem;
+    margin-top: 3rem;
+  }
+  .container {
+    margin: auto;
+    text-align: center;
+  }
+  .connect-telegram {
+    font-size: 2.7rem;
+    font-family: Oswald, sans-serif;
+  }
+  .link a {
+    color: white;
+  }
+
+  .footer{
+display: flex;
+padding-bottom: 1.5rem;
+
+}
+.copyright{
+color: rgb(177, 166, 166);
+margin-left: 3rem;
+
+}
+.copyright a{
+color: rgb(177, 166, 166);
+text-decoration: none;
+}
+
+.support{
+color: rgb(177, 166, 166);
+margin-left: 82rem;
+}
+
+.footer-section{
+text-align: center;
+font-size: 1.2rem;
+font-family: 'Almarai', sans-serif;
+border: 1px solid rgb(93, 216, 216);
+border-radius: 5px;
+color:rgb(93, 216, 216);
+width: 17rem;
+margin: auto;
+padding: 0.6rem;
+}
+.footer-section:hover{
+background-color:rgb(57, 168, 168);
+color: white;
+}

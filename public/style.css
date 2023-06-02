@@ -1,22 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Comme&family=Itim&family=Josefin+Sans&family=Mukta&family=Pacifico&family=Raleway&family=Roboto:wght@300&family=Ysabeau&family=Zilla+Slab&display=swap');
-/* body{
-  height: 1000px;
-  overflow: auto;
-} */
+.main-body{
+  height: 800px;
+}
 .container {
   background-color:#191d28;
   width: 100%;
-   max-width: 100%;
+  max-width: 100%;
   margin: 0 auto;
   position: fixed;
-  /* overflow: auto; */
 }
 h1 {
   color:rgb(93, 216, 216);
-  font-size: 2.5rem;
+  font-size: 2.9rem;
   font-weight: 100;
   margin-top: 1rem;
-  /* font-family: 'Almarai', sans-serif; */
   font-family: 'Oswald',sans-serif;
 }
 .header-section {
@@ -26,7 +23,7 @@ h1 {
 }
 .header-middle-section{
 display: flex;
-margin-left: 15rem;  
+margin-left: 18rem;  
 
 }
 #inr-section{
@@ -46,6 +43,7 @@ padding: 0.8rem;
    color: white;
    margin-top: 2rem;
 }
+
 #btc-section{
 padding-top: 1.8rem;
 padding-left: 1rem;
@@ -93,7 +91,7 @@ color: #f4f4f7;
 
 .header-right-section {
   display: flex;
-  margin-left: 18rem;
+  margin-left: 25rem;
 }
 .telegram-section {
   margin-top: 1rem;
@@ -204,9 +202,9 @@ span{
   border: 1px solid #262b38;
   border-radius: 13px;
   display: flex;
-  width:91%;
+  width:93%;
   margin: 2.3rem;
-  padding: 0.9rem;
+  padding: 1rem;
   font-size: 1.6rem;
   font-family: 'Oswald',sans-serif;
   background-color: #262b38;
@@ -239,7 +237,7 @@ span{
 .footer{
   display: flex;
   padding-bottom: 1.5rem;
-
+  margin-bottom: 3rem;
 }
 .copyright{
   color: rgb(177, 166, 166);
@@ -253,7 +251,7 @@ span{
 
 .support{
   color: rgb(177, 166, 166);
-  margin-left: 62rem;
+  margin-left: 82rem;
 }
 
 .footer-section{
@@ -266,6 +264,7 @@ span{
   width: 17rem;
   margin: auto;
   padding: 0.6rem;
+  
 }
 .footer-section:hover{
   background-color:rgb(57, 168, 168);
@@ -280,25 +279,6 @@ span{
   padding: 1rem;
   margin-left: -5rem;
 }
-
-/* body {
-  background-color: #fff; 
-  color: #000; 
-} */
-
-.tgl-btn{
-  margin-left: 1rem;
-  margin-top: 1rem;
-  max-width: 0rem;
-  background-color: #191d28;
-  /* color: #000; */
-}
-
-.dark-mode {
-  background-color: white; 
-  color: #fff; 
-}
-
 
 
 @media only screen and (max-width: 768px) {

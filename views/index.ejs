@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
- <link rel="stylesheet" href="public/style.css">
+    <title>HodlInfo</title>
+ <link rel="stylesheet" href="/style.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   </head>
   <body>
@@ -18,15 +18,14 @@
         <div class="header-middle-section">
             <div class="inr-drp" id="inr-section">
                 <ul>
-                   <div class="buy-btc" >
+                   <div class="buy-btc" id="inr-id">
                         <a href="#">INR</a>
-                        </ul>
+                   </div>
                 </ul>
             </div>
                        
             
-                <select class="dropdown" id="drpdwn">
-                    <!-- <option value="" disabled selected></option> -->                  
+                <select class="dropdown" id="drpdwn">                
                         <option><a href="">BTC</a></option>
                         <option><a href="">ETH</a></option>
                         <option><a href="">USDT</a></option>
@@ -53,7 +52,7 @@
           <div id="timer" class="set-time-btn">60</div>
 
           <div class="telegram-section">
-          <button class="btn" id = "tele-btn"><a href="#"> <i class="fa fa-telegram" aria-hidden="true"></i> Connect Telegram</a></button>
+          <button class="btn" id = "tele-btn"><a href="/telegram-page"> <i class="fa fa-telegram" aria-hidden="true"></i> Connect Telegram </a></button>
           </div>          
 
         </div>
@@ -100,22 +99,27 @@
         </ul>
       </div>
       <div id = 'dynamic_data'>
+        <% var count=0 %>
+        <% for(var element of data) { count += 1 %>
         <div class="fetched-data">
-          <div class="no">1</div>
+          <div class="no"><%= count %></div>
   
           <div class="platform">WazirX</div>
-         <div class="last-traded-price"> <i class="fa fa-inr" aria-hidden="true"></i> 25,15,000</div>
+         <div class="last-traded-price"> <i class="fa fa-inr" aria-hidden="true"></i><%= element.last %></div>
   
-         <div class="buy-price"> <i class="fa fa-inr" aria-hidden="true"></i> 24,91,005/25,15,000</div>
+         <div class="buy-price"> <i class="fa fa-inr" aria-hidden="true"></i><%= element.buy %>/<%= element.sell %></div>
   
-         <div class="difference">-3.10%</div>
+         <div class="difference"><%= element.diff %>%</div>
   
-         <div class="savings"> <i class="fa fa-inr" aria-hidden="true"></i> 80,466</div>
+         <div class="savings"> <i class="fa fa-inr" aria-hidden="true"></i><%= element.savings %></div>
   
         </div>
 
+        <% } %>
 
       </div>
+
+
   <hr>
       <div class="footer">
         <div class="copyright">
@@ -125,7 +129,6 @@
         <div class="support">
             Support
         </div>
-      </div>
 
       </div>
 
@@ -133,6 +136,7 @@
         Add hodlinfo to home screen
       </div>
     </div>
+    
   </body>
-  <script src="script.js"></script>
+  <script src="/script.js"></script>
 </html>
